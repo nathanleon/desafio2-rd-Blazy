@@ -1,0 +1,43 @@
+
+body {
+  background: black;
+  color: white;
+  font-family: Arial;
+
+}
+
+figure {
+  overflow: hidden;
+  /*border: 10px solid white;*/
+  background-image: url(../images/gears.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 853px;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 1em;
+  padding: 5px 10px;
+  border-bottom: 5px solid red;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+img {
+  /*border: 10px solid yellow;*/
+  transition: 1s;
+  opacity: 0;
+  object-fit: cover;
+  width: 100%;
+  transform: rotate(360deg);
+}
+
+
+img.b-loaded{
+  /*border-color: red;*/
+  opacity: 1;
+  transform: rotate(0deg);
+
+}
